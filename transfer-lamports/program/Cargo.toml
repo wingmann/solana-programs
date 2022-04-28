@@ -1,0 +1,11 @@
+[package]
+name = "program"
+version = "0.1.0"
+authors = ["Alexander <alexander.schawrow@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+solana-program = "1.9.9"
+
+[lib]
+crate-type = ["cdylib", "lib"]
